@@ -1,3 +1,3 @@
 def reverse(sentence)
-  sentence.split.map {|word| word.reverse}.join(" ")
+  sentence.split.collect {|word| word.reverse}.join(" ")
 end
